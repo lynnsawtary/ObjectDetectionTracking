@@ -1,6 +1,6 @@
-# CodeAlpha Object Detection and Tracking
+# Object Detection and Tracking
 
-A real-time Object Detection and Tracking system developed using YOLOv8, OpenCV, and ByteTrack as part of the CodeAlpha Internship Program.
+A real-time Object Detection and Tracking system developed using YOLOv8, OpenCV, and ByteTrack.
 
 The application can process webcam input or video files, detect multiple objects in real time, assign tracking IDs, display confidence scores, count detected objects, and save the processed output video.
 
@@ -33,7 +33,7 @@ The application can process webcam input or video files, detect multiple objects
 # Project Structure
 
 ```text
-CodeAlpha_ObjectDetectionTracking/
+ObjectDetectionTracking/
 │
 ├── main.py
 ├── requirements.txt
@@ -50,13 +50,13 @@ CodeAlpha_ObjectDetectionTracking/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CodeAlpha_ObjectDetectionTracking.git
+git clone https://github.com/YOUR_USERNAME/ObjectDetectionTracking.git
 ```
 
 Navigate into the project folder:
 
 ```bash
-cd CodeAlpha_ObjectDetectionTracking
+cd ObjectDetectionTracking
 ```
 
 Create a virtual environment:
@@ -137,20 +137,6 @@ outputs/video_output.mp4
    - Object count panel
 5. The processed frames are displayed live and saved as output videos.
 
----
-
-# Internship Task Requirements Completed
-
-This project satisfies the following CodeAlpha Task 4 requirements:
-
-- Real-time video input using webcam or video file
-- Pre-trained YOLO model for object detection
-- Frame-by-frame object detection processing
-- Bounding boxes and labels
-- Object tracking implementation
-- Real-time display with tracking IDs
-
----
 
 # Example Applications
 
@@ -180,5 +166,3 @@ Possible future enhancements:
 # Author
 
 Lynn Sawtary
-
-CodeAlpha Internship Project
